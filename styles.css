@@ -2,8 +2,15 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: "Maplestory";
+  src: url(res/MaplestoryFont_TTF/Maplestory\ Bold.ttf) format("truetype");
+  font-family: "Maplestory_light";
+  src: url(res/MaplestoryFont_TTF/Maplestory\ Light.ttf);
+}
 body {
   position: relative;
+  font-family: "Maplestory_light";
 }
 .container {
   z-index: 1;
@@ -34,7 +41,8 @@ body {
   height: 100vh;
   text-align: center;
   display: block;
-
+  align-items: center;
+  justify-content: center;
   color: white;
 }
 #top {
@@ -49,19 +57,40 @@ body {
   color: white;
 }
 #main-slogan {
-  position: relative;
-  height: 100vh;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  border-right: 0.1em solid white;
+  white-space: nowrap;
+  letter-spacing: 0.3em;
+  animation: typing 3s steps(30, end), blink-caret 1.2s step-end infinite;
 }
 
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 15em;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(255, 255, 255);
+  }
+}
 video {
   object-fit: cover;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
