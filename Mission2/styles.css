@@ -1,13 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
+
 body {
   position: relative;
   justify-content: center;
 }
 #logo {
-  font-style: italic;
+  font-family: "Cinzel", serif;
   font-weight: lighter;
   font-size: 1.5em;
   margin: 0.2em;
@@ -15,10 +19,10 @@ body {
   text-align: center;
 }
 #bottom-logo {
-  font-style: italic;
+  font-family: "Great Vibes", cursive;
   font-weight: lighter;
-  font-size: 1.5em;
-  margin: 0.5em;
+  font-size: 1.2em;
+  margin: 0.8em;
   display: block;
   text-align: center;
 }
