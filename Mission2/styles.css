@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  justify-content: center;
+}
+#logo {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin: 0.2em;
+  display: block;
+  text-align: center;
+}
+#bottom-logo {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin: 0.5em;
+  display: block;
+  text-align: center;
+}
+#container {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#image {
+  max-height: 85vh;
+  object-fit: contain;
+}
+
+.arrow {
+  margin: 3em;
+  opacity: 0;
+  padding: 1em;
+  z-index: 2;
+  width: 5vw;
+  height: 5vh;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
