@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,18 +12,18 @@ body {
   justify-content: center;
 }
 #logo {
-  font-family: "Cinzel", serif;
-  font-weight: lighter;
-  font-size: 1.5em;
-  margin: 0.2em;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 1.2vw;
+  margin: 2vh;
   display: block;
   text-align: center;
 }
 #bottom-logo {
-  font-family: "Great Vibes", cursive;
-  font-weight: lighter;
-  font-size: 1.2em;
-  margin: 0.8em;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
+  font-size: 1vw;
+  margin: 1vh;
   display: block;
   text-align: center;
 }
@@ -35,12 +35,13 @@ body {
   align-items: center;
 }
 #image {
+  max-width: 70vw;
   max-height: 85vh;
   object-fit: contain;
 }
 
 .arrow {
-  margin: 3em;
+  margin: 3vw;
   opacity: 0;
   padding: 1em;
   z-index: 2;
