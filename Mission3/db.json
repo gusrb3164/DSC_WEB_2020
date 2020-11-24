@@ -1,0 +1,30 @@
+{"todos":[{"id":1,"content":"HTML","completed":false},{"id":2,"content":"CSS","completed":true},{"id":3,"content":"Javascript","completed":false},{"id":4,"content":"종강하기","completed":false},{"id":5,"content":"종강하기","completed":false}]}
+
+{
+    "order":{
+        "name":"",
+        "mobile":"",
+        "address":"",
+        "totalPrice":"",
+        "cardNum":"",
+        "isDiscounted":"",
+        "deliverydateTime":"",
+        "info":"",
+        "cart":[{
+            "menu":"",
+            "style":"",
+            "orderedDetailList":"",
+            "price":""
+        }]
+    }
+}
+
+{
+    디너: 프렌치, 잉글리시, 샴페인(그랜드, 딜럭스만)
+    스타일: 발렌타인, 심플, 그랜드, 딜럭스 
+    디테일: 커피, 와인 한 잔, 샐러드, 미트, 에그 스크램블, 베이컨, 빵, 스테이크, 샴페인 한 병, 바게트빵, 치즈 
+    
+    프렌치-> 커피 한잔, 와인 한잔, 샐러드, 미트
+    잉글리시-> 에그스크램블, 베이컨, 빵, 스테이크
+    샴페인-> 샴페인 한병, 바게트 빵 4개, 커피 2잔
+}

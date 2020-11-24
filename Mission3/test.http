@@ -1,0 +1,17 @@
+POST url http://127.0.0.1:5000/todos HTTP/1.1
+content-type: application/json
+
+{
+    "todos":
+        {"id":4,"content":"HTML","completed":false}
+}
+
+###
+
+GET http://127.0.0.1:5000/todos HTTP/1.1
+
+###
+
+curl --request GET\
+    --url http://127.0.0.1:5000/todos
+    --data '{}'
